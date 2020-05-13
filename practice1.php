@@ -6,21 +6,27 @@ if ($name == 小田康祐) {
 } else {
     echo "あなたは小田康祐ではありません。";
 }
+?>
 
+<?php
 //課題2
 $totle = 0;
 for($i=0; $i<=10000; $i++) {
     $totle += $i;
 }
 echo $totle;
+?>
 
+<?php
 //課題3
 $fruits = array("apple, orange, meron, peach, greape");
 foreach($fruits as $fluit) {
     echo "好きなフルーツは" .$fluit;
     echo "\n";
 }
+?>
 
+<?php
 //課題4
 $start = 1;
 for($i=1; $i<=100; $i++) {
@@ -28,3 +34,4 @@ for($i=1; $i<=100; $i++) {
     echo $i;
     }
 }
+?>
