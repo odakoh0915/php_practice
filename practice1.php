@@ -29,7 +29,7 @@ foreach($fruits as $fluit) {
 <?php
 //課題4
 $start = 1;
-for($i=1; $i<=100; $i++) {
+for($i=$start; $i<=100; $i++) {
     if($i % 5 == 0) {
     echo $i;
     }
