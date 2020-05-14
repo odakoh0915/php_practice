@@ -1,7 +1,7 @@
 <?php
 //課題1
 $name = "小田康祐";
-if ($name == 小田康祐) {
+if ($name == "小田康祐") {
     echo "私は小田康祐です。";
 } else {
     echo "あなたは小田康祐ではありません。";
@@ -11,7 +11,7 @@ if ($name == 小田康祐) {
 <?php
 //課題2
 $totle = 0;
-for($i=0; $i<=10000; $i++) {
+for($i = 0; $i <= 10000; $i++) {
     $totle += $i;
 }
 echo $totle;
@@ -19,7 +19,7 @@ echo $totle;
 
 <?php
 //課題3
-$fruits = array("apple, orange, meron, peach, greape");
+$fruits = array("apple", "orange", "meron", "peach", "greape");
 foreach($fruits as $fluit) {
     echo "好きなフルーツは" .$fluit;
     echo "\n";
@@ -29,7 +29,8 @@ foreach($fruits as $fluit) {
 <?php
 //課題4
 $start = 1;
-for($i=$start; $i<=100; $i++) {
+$end = 100;
+for($i = $start; $i <= $end; $i++) {
     if($i % 5 == 0) {
     echo $i;
     }
