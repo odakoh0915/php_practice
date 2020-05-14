@@ -10,11 +10,11 @@ if ($name == "小田康祐") {
 
 <?php
 //課題2
-$totle = 0;
+$total = 0;
 for($i = 0; $i <= 10000; $i++) {
-    $totle += $i;
+    $total += $i;
 }
-echo $totle;
+echo $total;
 ?>
 
 <?php
